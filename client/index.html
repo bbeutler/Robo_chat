@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RoboCht - Your AI Pal</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="app">
+      <header><h3>New chat</h3></header>
+
+      <div id="chat_container">
+
+        <div class="text-wrap" id = "ai">
+          <div class="chat">
+          
+          <div class="profile">
+          <img src="/src/assets/bot.svg" alt="profile svg"/>
+          </div>
+          
+          <p class="message" id="default">
+          Hello! This is RoboCht...an AI website created by <a href="https://twitter.com/seego" target="_blank">Seego</a> using the ChatGPT API. 
+          </p>
+          </div>
+          </div>
+      </div>
+
+        <form id="form">
+
+          <textarea name="prompt" id="" cols="10" rows="1" placeholder="Ask RoboCht..."></textarea>
+          <button><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" stroke-width="1" >
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+        </svg></button>
+        </form>
+      
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
